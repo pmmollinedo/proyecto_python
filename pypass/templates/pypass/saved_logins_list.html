@@ -1,0 +1,48 @@
+{% extends 'pypass/base_layout.html' %}
+
+{% block base_layout_content %}
+<!-- Saved Login List (3 col Grid System)-->
+<div class="col">
+    {% for saved_login in saved_login_list %}
+    {% if forloop.first %}
+    <div class="row">
+        {% endif %}
+        <div class="col-lg-4">
+            <!-- Card Item -->
+            <div class="col-auto mb-4">
+                <div class="card border-left-primary shadow h-100 py-2"
+                     onclick="location.href='{% url 'pypass:detail_login' saved_login.id_user_logins %}';">
+                    <div class="card-body">
+                        <div class="row no-gutters align-items-center">
+                            <div class="col-auto ml-4">
+                                <i class="fas fa-key fa-2x text-gray-300"></i>
+                            </div>
+                            <div class="col ml-4">
+                                <div class="h5 font-weight-bold text-primary text-uppercase mb-1">
+                                    {{ saved_login.sitename }}
+                                </div>
+                                <div class="text-xs mb-0 font-weight-bold text-gray-800">
+                                    {% if saved_login.username %}
+                                        {{ saved_login.username }}
+                                    {% else %}
+                                        {{ saved_login.email }}
+                                    {% endif%}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% if forloop.counter|divisibleby:3 %}
+    </div>
+    <div class="row">
+        {% endif %}
+        {% if forloop.last %}
+    </div>
+    {% endif %}
+    {% empty %}
+    <p>No saved logins are available.</p>
+    {% endfor %}
+</div>
+{% endblock %}
