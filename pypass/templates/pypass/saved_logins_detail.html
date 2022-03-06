@@ -120,8 +120,13 @@
 
                         <div class="form-group row">
                             <div class="col-sm-10">
-                                <button class="btn btn-primary" type="submit">Save</button>
-                                <a href="{% url 'pypass:list_login' %}" class="btn btn-secondary" type="button">Cancel</a>
+                                <a class="btn btn-success" href="{% url 'pypass:update_login' saved_login.id_user_logins %}">
+                                    Update
+                                </a>
+                                <div class="btn btn-danger" data-toggle="modal" data-target="#deleteItemModal">
+                                    Delete
+                                </div>
+                                <a href="{% url 'pypass:list_login' %}" class="btn btn-secondary" type="button">Back</a>
                             </div>
                         </div>
                     </form>
