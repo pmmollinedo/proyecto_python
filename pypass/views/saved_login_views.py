@@ -4,6 +4,7 @@ from django.views.generic import CreateView, ListView, DetailView, UpdateView, D
 
 from pypass.forms.saved_logins_form import CreateSavedLoginForm, UpdateSavedLoginForm
 from pypass.models.user_logins import UserSavedLogins
+from pypass.utils import password_util as pwd_util
 
 
 class PyPassCreateLoginView(LoginRequiredMixin, CreateView):
@@ -17,6 +18,10 @@ class PyPassCreateLoginView(LoginRequiredMixin, CreateView):
     def form_valid(self, form):
         logged_user_id = self.request.user.id
         form.instance.app_user_id = logged_user_id
+        plain_password = form.instance.password
+        if plain_password:
+            token_password = pwd_util.generate_password_token(plain_password)
+            form.instance.password = token_password
         return super(PyPassCreateLoginView, self).form_valid(form)
 
     def get_context_data(self, *, object_list=None, **kwargs):
@@ -64,6 +69,15 @@ class PyPassDetailLoginView(LoginRequiredMixin, DetailView):
 
     def get_context_data(self, *, object_list=None, **kwargs):
         context = super().get_context_data(**kwargs)
+
+        logged_user_id = self.request.user.id
+        login_id = self.kwargs['pk']
+        saved_login = UserSavedLogins.objects.get(app_user_id=logged_user_id, id_user_logins=login_id)
+        password_token = saved_login.password
+        if password_token:
+            saved_login.password = pwd_util.show_password(password_token)
+
+        context['saved_login'] = saved_login
         context["web_title"] = "Detail"
         context['page_heading_title'] = "Detail"
         return context
@@ -74,6 +88,7 @@ class PyPassUpdateLoginView(LoginRequiredMixin, UpdateView):
     redirect_field_name = 'redirect_to'
     template_name = 'pypass/saved_logins_update.html'
     context_object_name = 'saved_login'
+    model = UserSavedLogins
     form_class = UpdateSavedLoginForm
     success_url = reverse_lazy('pypass:list_login')
 

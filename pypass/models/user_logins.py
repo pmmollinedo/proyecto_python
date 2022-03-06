@@ -24,7 +24,7 @@ class UserSavedLogins(models.Model):
         blank=True
     )
     password = models.CharField(
-        max_length=50,
+        max_length=255,
         blank=True
     )
     notes = models.CharField(
