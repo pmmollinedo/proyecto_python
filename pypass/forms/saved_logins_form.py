@@ -89,11 +89,13 @@ class UpdateSavedLoginForm(ModelForm):
                     'placeholder': 'Email'
                 }
             ),
-            'password': PasswordInput(
+            'password': TextInput(
                 attrs={
                     'id': "formInputPassword",
+                    'type': 'text',
                     'class': 'form-control',
-                    'placeholder': 'Password'
+                    'placeholder': 'Password',
+                    'maxlength': '50'
                 }
             ),
             'notes': Textarea(

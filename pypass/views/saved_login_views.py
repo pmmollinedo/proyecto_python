@@ -83,6 +83,23 @@ class PyPassDetailLoginView(LoginRequiredMixin, DetailView):
         return context
 
 
+def get_form_with_decrypted_password(form):
+    """
+    Method that overrides the form to decrypt the password item
+    :return: ModelForm object with decrypted password value
+    """
+    sitename = form["sitename"].value()
+    brand_icon = form["brand_icon"].value()
+    username = form["username"].value()
+    email = form["email"].value()
+    password = pwd_util.show_password(form["password"].value())
+    notes = form["notes"].value()
+    is_fav = form["is_fav"].value()
+    initial_items = {'sitename': sitename, 'brand_icon': brand_icon, 'username': username, 'email': email,
+                     'password': password, 'notes': notes, 'is_fav': is_fav}
+    return UpdateSavedLoginForm(initial=initial_items)
+
+
 class PyPassUpdateLoginView(LoginRequiredMixin, UpdateView):
     login_url = 'pypass:login'
     redirect_field_name = 'redirect_to'
@@ -92,22 +109,18 @@ class PyPassUpdateLoginView(LoginRequiredMixin, UpdateView):
     form_class = UpdateSavedLoginForm
     success_url = reverse_lazy('pypass:list_login')
 
-    def get_queryset(self):
-        """
-        Return the logins by user and login_id.
-        """
-        logged_user_id = self.request.user.id
-        login_id = self.kwargs['pk']
-        return UserSavedLogins.objects.filter(app_user_id=logged_user_id, id_user_logins=login_id)
-
     def get_context_data(self, *, object_list=None, **kwargs):
         context = super().get_context_data(**kwargs)
+        context['form'] = get_form_with_decrypted_password(context['form'])
         context["web_title"] = "Update"
         context['page_heading_title'] = "Update"
         return context
 
     def form_valid(self, form):
-        print(form)
+        plain_password = form.instance.password
+        if plain_password:
+            token_password = pwd_util.generate_password_token(plain_password)
+            form.instance.password = token_password
         return super(PyPassUpdateLoginView, self).form_valid(form)
 
 
