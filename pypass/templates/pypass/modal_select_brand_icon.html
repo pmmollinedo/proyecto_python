@@ -11,7 +11,7 @@
             <div class="modal-body">
                 <div class="container-fluid">
                     {% for icon in brand_icons_list %}
-                    {% if not icon.is_activated %}
+                    {% if icon.is_activated %}
                     <div class="row brand-item">
                         <input class="brand-id" type="hidden" value="{{ icon.id_brand_icon }}"/>
                         <input class="brand-icon-class" type="hidden" value="{{ icon.brand_icon_class }}"/>

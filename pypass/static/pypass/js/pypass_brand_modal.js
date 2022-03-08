@@ -20,5 +20,8 @@
         // Set default class items at same position
         $('#brand_icon_logo').addClass(previousIconClassList[2]);
         $('#brand_icon_logo').addClass(previousIconClassList[3]);
+
+        // Close modal
+        $('#brandIconsModal').modal('hide');
     });
 })(jQuery); // End of use strict
