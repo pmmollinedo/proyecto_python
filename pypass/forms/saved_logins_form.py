@@ -1,5 +1,4 @@
-from django.forms import ModelForm, TextInput, EmailInput, PasswordInput, Textarea, CheckboxInput
-
+from django.forms import ModelForm, TextInput,  Select, EmailInput, PasswordInput, Textarea, CheckboxInput
 from pypass.models.user_logins import UserSavedLogins
 
 
@@ -19,7 +18,12 @@ class CreateSavedLoginForm(ModelForm):
                     'placeholder': 'SiteName'
                 }
             ),
-            'brand_icon': TextInput(),
+            'brand_icon': Select(
+                attrs={
+                    'id': "brand_icon_select",
+                    'class': 'd-none'
+                }
+            ),
             'username': TextInput(
                 attrs={
                     'id': "formInputUserName",
@@ -74,7 +78,12 @@ class UpdateSavedLoginForm(ModelForm):
                     'placeholder': 'SiteName'
                 }
             ),
-            'brand_icon': TextInput(),
+            'brand_icon': Select(
+                attrs={
+                    'id': "brand_icon_select",
+                    'class': 'd-none'
+                }
+            ),
             'username': TextInput(
                 attrs={
                     'id': "formInputUserName",

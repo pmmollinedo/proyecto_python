@@ -3,7 +3,7 @@ from django.urls import reverse_lazy
 from django.views.generic import CreateView, ListView, DetailView, UpdateView, DeleteView
 
 from pypass.forms.saved_logins_form import CreateSavedLoginForm, UpdateSavedLoginForm
-from pypass.models.user_logins import UserSavedLogins
+from pypass.models.user_logins import UserSavedLogins, BrandIcons
 from pypass.utils import password_util as pwd_util
 
 
@@ -28,6 +28,7 @@ class PyPassCreateLoginView(LoginRequiredMixin, CreateView):
         context = super().get_context_data(**kwargs)
         context["web_title"] = "Create"
         context['page_heading_title'] = "Create new Login"
+        context['brand_icons_list'] = BrandIcons.objects.filter(is_activated=True)
         return context
 
 
@@ -112,6 +113,7 @@ class PyPassUpdateLoginView(LoginRequiredMixin, UpdateView):
     def get_context_data(self, *, object_list=None, **kwargs):
         context = super().get_context_data(**kwargs)
         context['form'] = get_form_with_decrypted_password(context['form'])
+        context['brand_icons_list'] = BrandIcons.objects.filter(is_activated=True)
         context["web_title"] = "Update"
         context['page_heading_title'] = "Update"
         return context

@@ -25,6 +25,10 @@
         </div>
     </div>
 </form>
+
+<!-- Select Brand Icon Modal -->
+{% include "pypass/modal_select_brand_icon.html" %}
+
 <!-- Pass Form -->
 <div class="col-xl-8 col-lg-7">
     <form method="post">
@@ -69,7 +73,8 @@
                         <div class="form-group row">
                             <label class="col-sm-2 col-form-label text-right pr-4 pt-0"
                                    for="formInputSiteName">
-                                <i class="fas fa-key fa-5x text-gray-300"></i>
+                                <i class="{{ saved_login.brand_icon.brand_icon_class }} fa-5x text-gray-300" data-toggle="modal"
+                                   data-target="#brandIconsModal"></i>
                                 {{ form.brand_icon }}
                                 <!-- <i class="fab fa-discord fa-5x text-gray-300" data-toggle="tooltip"
                                     data-placement="top" title="Clic para cambiar de icono."></i> -->
@@ -141,4 +146,5 @@
 <!-- Custom scripts for this page -->
 {% load static %}
 <script src="{% static 'pypass/js/pypass_savedlogin_form.js' %}"></script>
+<script src="{% static 'pypass/js/pypass_brand_modal.js' %}"></script>
 {% endblock %}
