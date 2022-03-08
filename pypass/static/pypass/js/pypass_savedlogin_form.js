@@ -10,7 +10,7 @@
             $('.unchecked').removeClass("d-none");
             $('.checked').addClass("d-none");
         }
-        var passwordPercentage = getPasswordPercentage($("#formInputPassword").value);
+        var passwordPercentage = getPasswordPercentage($("#formInputPassword").val());
         changePasswordProgressBar(passwordPercentage);
     });
 
@@ -36,26 +36,27 @@
 
     function getPasswordPercentage(password) {
         var passwordPercentage = 0;
-        //Strong and Medium Password RegExp
-        var lowercaseRegExp = new RegExp('(?=.*[a-z])');// 10
-        if (lowercaseRegExp.test(password)) {
-            passwordPercentage += 10;
-        }
-        var uppercaseRegExp = new RegExp('(?=.*[A-Z])');// 10
-        if (uppercaseRegExp.test(password)) {
-            passwordPercentage += 10;
-        }
-        var numberRegExp = new RegExp('(?=.*[0-9])');// 20
-        if (numberRegExp.test(password)) {
-            passwordPercentage += 20;
-        }
-        var SpecialCharRegExp = new RegExp('(?=.*[^A-Za-z0-9])');// 30
-        if (SpecialCharRegExp.test(password)) {
-            passwordPercentage += 30;
-        }
-        var lengthRegExp = new RegExp('(?=.{8,})');// 30
-        if (lengthRegExp.test(password)) {
-            passwordPercentage += 30;
+        if (password) {
+            var lowercaseRegExp = new RegExp('(?=.*[a-z])');// 10
+            if (lowercaseRegExp.test(password)) {
+                passwordPercentage += 10;
+            }
+            var uppercaseRegExp = new RegExp('(?=.*[A-Z])');// 10
+            if (uppercaseRegExp.test(password)) {
+                passwordPercentage += 10;
+            }
+            var numberRegExp = new RegExp('(?=.*[0-9])');// 20
+            if (numberRegExp.test(password)) {
+                passwordPercentage += 20;
+            }
+            var SpecialCharRegExp = new RegExp('(?=.*[^A-Za-z0-9])');// 30
+            if (SpecialCharRegExp.test(password)) {
+                passwordPercentage += 30;
+            }
+            var lengthRegExp = new RegExp('(?=.{8,})');// 30
+            if (lengthRegExp.test(password)) {
+                passwordPercentage += 30;
+            }
         }
         return passwordPercentage;
     }
