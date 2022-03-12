@@ -21,14 +21,46 @@
                                 <div class="text-center">
                                     <h1 class="h4 text-gray-900 mb-4">Welcome Back!</h1>
                                 </div>
+                                <!-- Start: Global Alert Errors -->
+                                {% if form.errors %}
+                                    {% for error in form.non_field_errors %}
+                                        <div class="alert alert-danger">
+                                            {{ error|escape }}
+                                        </div>
+                                    {% endfor %}
+                                {% endif %}
+                                <!-- End: Global Alert Errors -->
                                 <form class="user" method="post" action="{% url 'pypass:login' %}">
+                                    <!-- Start: CSRF Token -->
                                     {% csrf_token %}
+                                    <!-- End: CSRF Token -->
+
+                                    <!-- Start: USERNAME -->
+                                    {% if form.username.errors %}
+                                        <div class="alert alert-danger">
+                                            {% for error in form.username.errors %}
+                                                {{ error|escape }}
+                                            {% endfor %}
+                                        </div>
+                                    {% endif %}
                                     <div class="form-group">
                                         {{ form.username }}
                                     </div>
+                                    <!-- End: USERNAME -->
+
+                                    <!-- Start: PASSWORD -->
+                                    {% if form.password.errors %}
+                                        <div class="alert alert-danger">
+                                            {% for error in form.password.errors %}
+                                                {{ error|escape }}
+                                            {% endfor %}
+                                        </div>
+                                    {% endif %}
                                     <div class="form-group">
                                         {{ form.password }}
                                     </div>
+                                    <!-- End: PASSWORD -->
+
                                     <!-- <div class="form-group">
                                         <div class="custom-control custom-checkbox small">
                                             <input type="checkbox" class="custom-control-input" id="customCheck">
@@ -38,7 +70,6 @@
                                     </div> -->
                                     <input type="submit" id="loginInputSubmit"
                                            class="btn btn-primary btn-user btn-block" value="Login"/>
-                                    {{ form.errors}}
                                 </form>
                                 <hr>
                                 <div class="text-center">
