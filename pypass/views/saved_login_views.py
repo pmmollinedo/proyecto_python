@@ -2,7 +2,7 @@ from django.contrib.auth.mixins import LoginRequiredMixin
 from django.urls import reverse_lazy
 from django.views.generic import CreateView, ListView, DetailView, UpdateView, DeleteView
 
-from pypass.forms.saved_logins_form import CreateSavedLoginForm, UpdateSavedLoginForm
+from pypass.forms.saved_logins_form import SavedLoginForm
 from pypass.models.user_logins import UserSavedLogins, BrandIcons
 from pypass.utils import password_util as pwd_util
 
@@ -12,8 +12,14 @@ class PyPassCreateLoginView(LoginRequiredMixin, CreateView):
     redirect_field_name = 'redirect_to'
     template_name = 'pypass/saved_logins_create.html'
     model = UserSavedLogins
-    form_class = CreateSavedLoginForm
+    form_class = SavedLoginForm
     success_url = reverse_lazy('pypass:list_login')
+
+    #No se para que he metido esto
+    #def get_form(self, *args, **kwargs):
+    #    form = super(PyPassCreateLoginView, self).get_form(*args, **kwargs)
+    #    form.fields['brand_icon'].queryset = BrandIcons.objects.filter(is_activated=True)
+    #    return form
 
     def form_valid(self, form):
         logged_user_id = self.request.user.id
@@ -98,7 +104,7 @@ def get_form_with_decrypted_password(form):
     is_fav = form["is_fav"].value()
     initial_items = {'sitename': sitename, 'brand_icon': brand_icon, 'username': username, 'email': email,
                      'password': password, 'notes': notes, 'is_fav': is_fav}
-    return UpdateSavedLoginForm(initial=initial_items)
+    return SavedLoginForm(initial=initial_items)
 
 
 class PyPassUpdateLoginView(LoginRequiredMixin, UpdateView):
@@ -107,7 +113,7 @@ class PyPassUpdateLoginView(LoginRequiredMixin, UpdateView):
     template_name = 'pypass/saved_logins_update.html'
     context_object_name = 'saved_login'
     model = UserSavedLogins
-    form_class = UpdateSavedLoginForm
+    form_class = SavedLoginForm
     success_url = reverse_lazy('pypass:list_login')
 
     def get_context_data(self, *, object_list=None, **kwargs):

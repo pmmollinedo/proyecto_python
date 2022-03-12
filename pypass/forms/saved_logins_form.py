@@ -2,7 +2,7 @@ from django.forms import ModelForm, TextInput,  Select, EmailInput, PasswordInpu
 from pypass.models.user_logins import UserSavedLogins
 
 
-class CreateSavedLoginForm(ModelForm):
+class SavedLoginForm(ModelForm):
 
     class Meta:
         model = UserSavedLogins
@@ -42,67 +42,6 @@ class CreateSavedLoginForm(ModelForm):
                 attrs={
                     'id': "formInputPassword",
                     'class': 'form-control',
-                    'placeholder': 'Password'
-                }
-            ),
-            'notes': Textarea(
-                attrs={
-                    'id': "formInputNotes",
-                    'class': 'form-control',
-                    'placeholder': 'Write something...',
-                    'rows': '4'
-                }
-            ),
-            'is_fav': CheckboxInput(
-                attrs={
-                    'id': "formInputFavCheckbox",
-                    'class': 'd-none'
-                }
-            )
-        }
-
-
-class UpdateSavedLoginForm(ModelForm):
-
-    class Meta:
-        model = UserSavedLogins
-        exclude = ['app_user']
-        labels = {
-            'username': 'Username'
-        }
-        widgets = {
-            'sitename': TextInput(
-                attrs={
-                    'id': "formInputSiteName",
-                    'class': 'form-control',
-                    'placeholder': 'SiteName'
-                }
-            ),
-            'brand_icon': Select(
-                attrs={
-                    'id': "brand_icon_select",
-                    'class': 'd-none'
-                }
-            ),
-            'username': TextInput(
-                attrs={
-                    'id': "formInputUserName",
-                    'class': 'form-control',
-                    'placeholder': 'Username'
-                }
-            ),
-            'email': EmailInput(
-                attrs={
-                    'id': "formInputEmail",
-                    'class': 'form-control',
-                    'placeholder': 'Email'
-                }
-            ),
-            'password': TextInput(
-                attrs={
-                    'id': "formInputPassword",
-                    'type': 'text',
-                    'class': 'form-control',
                     'placeholder': 'Password',
                     'maxlength': '50'
                 }
@@ -122,3 +61,8 @@ class UpdateSavedLoginForm(ModelForm):
                 }
             )
         }
+
+    def __init__(self, *args, **kwargs):
+        super(SavedLoginForm, self).__init__(*args, **kwargs)
+        self.fields['brand_icon'].empty_label = None
+
