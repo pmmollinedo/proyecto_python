@@ -1,0 +1,139 @@
+{% extends 'pypass/base_layout.html' %}
+
+{% block base_layout_content %}
+
+<!-- Select Avatar Modal -->
+{% include "pypass/modal_select_profile_avatar.html" %}
+
+<!-- Profile Form -->
+<div class="col-2"></div>
+<div class="col-xl-8">
+    <div class="card shadow mb-4">
+        <!-- Card Header -->
+        <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+            <div class="row mr-4">
+                <h6 class="m-0 ml-4 font-weight-bold text-primary align-middle">Profile</h6>
+            </div>
+        </div>
+        <!-- Card Body -->
+        <div class="card-body">
+            <div class="col pt-2 pb-4">
+                <form method="POST">
+                    {% csrf_token %}
+                    {% if form.errors %}
+                        {% for field in form %}
+                            {% for error in field.errors %}
+                                <div class="alert alert-danger">
+                                    {{ field.name }} <strong>{{ error|escape }}</strong>
+                                </div>
+                            {% endfor %}
+                        {% endfor %}
+                    {% endif %}
+                    {% if user_form.errors %}
+                        {% for field in user_form %}
+                            {% for error in field.errors %}
+                                <div class="alert alert-danger">
+                                    {{ error|escape }}
+                                </div>
+                            {% endfor %}
+                        {% endfor %}
+                    {% endif %}
+                    {% if messages %}
+                        {% for message in messages %}
+                            <div class="alert alert-success alert-dismissable">
+                                {{ message }}
+                                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                        {% endfor %}
+                    {% endif %}
+                    <div class="row">
+                        <div class="col-2">
+                            {% load static %}
+                            <div data-toggle="modal" data-target="#profileAvatarModal">
+                                <img id="profile_avatar_img" class="card-image rounded-circle"
+                                     src="{% static 'pypass/img/'%}{{request.session.profile.avatar}}"
+                                     data-toggle="tooltip" data-placement="top" title="Clic to change avatar."/>
+                                {{ form.avatar }}
+                            </div>
+                        </div>
+                        <div class="col-10">
+                            <div class="row">
+                                <span class="h5">User settings:</span>
+                            </div>
+                            <div class="form-group row">
+                                <label class="col-sm-2 col-form-label text-right pr-4"
+                                       for="formInputUsername">{{ user_form.username.label }}</label>
+                                <div class="col-sm-10">
+                                    {{ user_form.username }}
+                                </div>
+                            </div>
+                        <div class="form-group row">
+                            <label class="col-sm-2 col-form-label text-right pr-4"
+                                   for="formInputUserName">{{ user_form.first_name.label }}</label>
+                            <div class="col-sm-10">
+                                {{ user_form.first_name }}
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label class="col-sm-2 col-form-label text-right pr-4"
+                                   for="formInputEmail">{{ user_form.last_name.label }}</label>
+                            <div class="col-sm-10">
+                                {{ user_form.last_name }}
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label class="col-sm-2 col-form-label text-right pr-4"
+                                   for="formInputEmail">{{ user_form.email.label }}</label>
+                            <div class="col-sm-10">
+                                {{ user_form.email }}
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label class="col-sm-2 col-form-label text-right pr-4"
+                                   for="formInputProfileBio">{{ form.status.label }}</label>
+                            <div class="col-sm-10">
+                                {{ form.status }}
+                            </div>
+                        </div>
+                        <div class="row">
+                            <span class="h5">Change your password:</span>
+                        </div>
+                        <div class="form-group row">
+                            <label class="col-sm-2 col-form-label text-right pr-4"
+                                   for="formInputProfilePassword">{{ user_form.password.label }}</label>
+                            <div class="col-sm-10">
+                                {{ user_form.password }}
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label class="col-sm-2 col-form-label text-right pr-4"
+                                   for="formInputProfileRepeatPassword">{{ user_form.confirm_password.label }}</label>
+                            <div class="col-sm-10">
+                                {{ user_form.confirm_password }}
+                            </div>
+                        </div>
+                        </div>
+                            </div>
+                        <div class="form-group row">
+                            <div class="col-sm-10">
+                                <button class="btn btn-primary" type="submit">Save</button>
+                                <a href="{% url 'pypass:profile' request.session.profile.id %}" class="btn btn-secondary"
+                                   type="button">Cancel</a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+    </div>
+</div>
+<div class="col-2"></div>
+{% endblock %}
+
+{% block extra_js %}
+    <!-- Custom scripts for this page -->
+    {% load static %}
+    <script src="{% static 'pypass/js/pypass_savedlogin_form.js' %}"></script>
+    <script src="{% static 'pypass/js/pypass_avatar_modal.js' %}"></script>
+{% endblock %}

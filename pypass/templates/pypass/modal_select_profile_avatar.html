@@ -1,0 +1,45 @@
+{% load static %}
+<div class="modal fade" id="profileAvatarModal" tabindex="-1" aria-labelledby="profileAvatarModal"
+     aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" style="height:50%;">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="profileAvatarModalLabel">Select one avatar</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-6 d-flex align-items-center justify-content-center avatar-item">
+                            <input class="avatar-item-name" type="hidden" value="default_profile_1.svg"/>
+                            <img class="card-image rounded-circle"
+                                 src="{% static 'pypass/img/default_profile_1.svg'%}"/>
+                        </div>
+                        <div class="col-6 d-flex align-items-center justify-content-center avatar-item">
+                            <input class="avatar-item-name" type="hidden" value="default_profile_2.svg"/>
+                            <img class="card-image rounded-circle"
+                                 src="{% static 'pypass/img/default_profile_2.svg'%}"/>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6 d-flex align-items-center justify-content-center avatar-item">
+                            <input class="avatar-item-name" type="hidden" value="default_profile_3.svg"/>
+                            <img class="card-image rounded-circle"
+                                 src="{% static 'pypass/img/default_profile_3.svg'%}"/>
+                        </div>
+                        <div class="col-6 d-flex align-items-center justify-content-center avatar-item">
+                            <input class="avatar-item-name" type="hidden" value="default_profile_4.svg"/>
+                            <img class="card-image rounded-circle"
+                                 src="{% static 'pypass/img/default_profile_4.svg'%}"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+            </div>
+        </div>
+    </div>
+</div>
