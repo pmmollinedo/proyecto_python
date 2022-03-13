@@ -3,7 +3,7 @@ from django.contrib.auth.mixins import LoginRequiredMixin
 from django.contrib.auth.models import User
 from django.forms import model_to_dict
 from django.urls import reverse_lazy
-from django.views.generic import UpdateView
+from django.views.generic import UpdateView, DeleteView
 
 from pypass.forms.profile_form import ProfileForm, UserForm
 from pypass.models.profile import Profile
@@ -60,3 +60,12 @@ class PyPassProfileUpdateView(LoginRequiredMixin, UpdateView):
 
     def form_valid(self, form):
         return super(PyPassProfileUpdateView, self).form_valid(form)
+
+
+class PyPassProfileDeleteView(LoginRequiredMixin, DeleteView):
+    login_url = 'pypass:login'
+    redirect_field_name = 'redirect_to'
+    model = User
+    success_url = reverse_lazy('pypass:login')
+
+
