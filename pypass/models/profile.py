@@ -20,4 +20,4 @@ class Profile(models.Model):
     )
 
     def __str__(self):
-        return f"Profile [{self.user}]"
+        return f'{self.user}'
