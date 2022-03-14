@@ -15,11 +15,11 @@ class PyPassCreateLoginView(LoginRequiredMixin, CreateView):
     form_class = SavedLoginForm
     success_url = reverse_lazy('pypass:list_login')
 
-    #No se para que he metido esto
-    #def get_form(self, *args, **kwargs):
-    #    form = super(PyPassCreateLoginView, self).get_form(*args, **kwargs)
-    #    form.fields['brand_icon'].queryset = BrandIcons.objects.filter(is_activated=True)
-    #    return form
+    def get_form(self, *args, **kwargs):
+        form = super(PyPassCreateLoginView, self).get_form(*args, **kwargs)
+        # Overwritten field in form to show only enabled icons
+        form.fields['brand_icon'].queryset = BrandIcons.objects.filter(is_activated=True)
+        return form
 
     def form_valid(self, form):
         logged_user_id = self.request.user.id
