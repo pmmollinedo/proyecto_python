@@ -1,7 +1,7 @@
 from django.db import models
 
 
-class BrandIcons(models.Model):
+class BrandIcon(models.Model):
     id_brand_icon = models.BigAutoField(primary_key=True)
     brand_name = models.CharField(max_length=50)
     brand_icon_class = models.CharField(max_length=100)

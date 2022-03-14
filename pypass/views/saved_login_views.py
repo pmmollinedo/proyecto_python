@@ -3,7 +3,7 @@ from django.urls import reverse_lazy
 from django.views.generic import CreateView, ListView, DetailView, UpdateView, DeleteView
 
 from pypass.forms.saved_logins_form import SavedLoginForm
-from pypass.models.user_logins import UserSavedLogins, BrandIcons
+from pypass.models.user_logins import UserSavedLogin, BrandIcon
 from pypass.utils import password_util as pwd_util
 
 
@@ -11,14 +11,14 @@ class PyPassCreateLoginView(LoginRequiredMixin, CreateView):
     login_url = 'pypass:login'
     redirect_field_name = 'redirect_to'
     template_name = 'pypass/saved_logins_create.html'
-    model = UserSavedLogins
+    model = UserSavedLogin
     form_class = SavedLoginForm
     success_url = reverse_lazy('pypass:list_login')
 
     def get_form(self, *args, **kwargs):
         form = super(PyPassCreateLoginView, self).get_form(*args, **kwargs)
         # Overwritten field in form to show only enabled icons
-        form.fields['brand_icon'].queryset = BrandIcons.objects.filter(is_activated=True)
+        form.fields['brand_icon'].queryset = BrandIcon.objects.filter(is_activated=True)
         return form
 
     def form_valid(self, form):
@@ -34,7 +34,7 @@ class PyPassCreateLoginView(LoginRequiredMixin, CreateView):
         context = super().get_context_data(**kwargs)
         context["web_title"] = "Create"
         context['page_heading_title'] = "Create new Login"
-        context['brand_icons_list'] = BrandIcons.objects.filter(is_activated=True)
+        context['brand_icons_list'] = BrandIcon.objects.filter(is_activated=True)
         return context
 
 
@@ -50,7 +50,7 @@ class PyPassListLoginView(LoginRequiredMixin, ListView):
         Return the saved logins list filtered by user.
         """
         logged_user_id = self.request.user.id
-        return UserSavedLogins.objects.filter(app_user_id=logged_user_id).order_by('id_user_logins')
+        return UserSavedLogin.objects.filter(app_user_id=logged_user_id).order_by('id_user_logins')
 
     def get_context_data(self, *, object_list=None, **kwargs):
         context = super().get_context_data(**kwargs)
@@ -72,14 +72,14 @@ class PyPassDetailLoginView(LoginRequiredMixin, DetailView):
         """
         logged_user_id = self.request.user.id
         login_id = self.kwargs['pk']
-        return UserSavedLogins.objects.filter(app_user_id=logged_user_id, id_user_logins=login_id)
+        return UserSavedLogin.objects.filter(app_user_id=logged_user_id, id_user_logins=login_id)
 
     def get_context_data(self, *, object_list=None, **kwargs):
         context = super().get_context_data(**kwargs)
 
         logged_user_id = self.request.user.id
         login_id = self.kwargs['pk']
-        saved_login = UserSavedLogins.objects.get(app_user_id=logged_user_id, id_user_logins=login_id)
+        saved_login = UserSavedLogin.objects.get(app_user_id=logged_user_id, id_user_logins=login_id)
         password_token = saved_login.password
         if password_token:
             saved_login.password = pwd_util.show_password(password_token)
@@ -112,14 +112,14 @@ class PyPassUpdateLoginView(LoginRequiredMixin, UpdateView):
     redirect_field_name = 'redirect_to'
     template_name = 'pypass/saved_logins_update.html'
     context_object_name = 'saved_login'
-    model = UserSavedLogins
+    model = UserSavedLogin
     form_class = SavedLoginForm
     success_url = reverse_lazy('pypass:list_login')
 
     def get_context_data(self, *, object_list=None, **kwargs):
         context = super().get_context_data(**kwargs)
         context['form'] = get_form_with_decrypted_password(context['form'])
-        context['brand_icons_list'] = BrandIcons.objects.filter(is_activated=True)
+        context['brand_icons_list'] = BrandIcon.objects.filter(is_activated=True)
         context["web_title"] = "Update"
         context['page_heading_title'] = "Update"
         return context
@@ -135,5 +135,5 @@ class PyPassUpdateLoginView(LoginRequiredMixin, UpdateView):
 class PyPassDeleteLoginView(LoginRequiredMixin, DeleteView):
     login_url = 'pypass:login'
     redirect_field_name = 'redirect_to'
-    model = UserSavedLogins
+    model = UserSavedLogin
     success_url = reverse_lazy('pypass:list_login')

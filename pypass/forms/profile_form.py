@@ -1,5 +1,5 @@
 from django.contrib.auth.models import User
-from django.forms import ModelForm, TextInput, EmailInput, PasswordInput, ImageField, CharField
+from django.forms import ModelForm, TextInput, EmailInput, PasswordInput, CharField
 
 from pypass.models.profile import Profile
 

@@ -1,9 +1,9 @@
 from django.db import models
 from django.contrib.auth.models import User
-from pypass.models.brand_icons import BrandIcons
+from pypass.models.brand_icons import BrandIcon
 
 
-class UserSavedLogins(models.Model):
+class UserSavedLogin(models.Model):
     id_user_logins = models.BigAutoField(
         primary_key=True,
 
@@ -12,7 +12,7 @@ class UserSavedLogins(models.Model):
         max_length=50
     )
     brand_icon = models.ForeignKey(
-        BrandIcons,
+        BrandIcon,
         on_delete=models.CASCADE
     )
     username = models.CharField(

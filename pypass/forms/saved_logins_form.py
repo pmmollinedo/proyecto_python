@@ -1,11 +1,11 @@
 from django.forms import ModelForm, TextInput,  Select, EmailInput, PasswordInput, Textarea, CheckboxInput
-from pypass.models.user_logins import UserSavedLogins
+from pypass.models.user_logins import UserSavedLogin
 
 
 class SavedLoginForm(ModelForm):
 
     class Meta:
-        model = UserSavedLogins
+        model = UserSavedLogin
         exclude = ['app_user']
         labels = {
             'username': 'Username'
