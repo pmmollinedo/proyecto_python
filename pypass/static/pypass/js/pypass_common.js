@@ -56,4 +56,15 @@
   // Enable tooltips
   $('[data-toggle="tooltip"]').tooltip()
 
+  // Show/Hide input password
+  $(".show-password").on("click", function() {
+      var icon = $(this).find("i").toggleClass("fa-eye fa-eye-slash");
+      var pwd_input = $(this).siblings("input");
+      if (icon.hasClass('fa-eye-slash')) {
+          pwd_input.attr('type', 'text');
+      } else if (icon.hasClass('fa-eye')) {
+          pwd_input.attr('type', 'password');
+      }
+  })
+
 })(jQuery); // End of use strict

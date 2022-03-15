@@ -80,7 +80,14 @@
                             <label class="col-sm-2 col-form-label text-right pr-4"
                                    for="formInputPassword">Password</label>
                             <div class="col-sm-10">
-                                {{ form.password }}
+                                <div class="input-group">
+                                    {{ form.password }}
+                                    <div class="input-group-append show-password">
+                                        <div class="input-group-text">
+                                            <i class="fas fa-eye"></i>
+                                        </div>
+                                    </div>
+                                </div>
                                 <div class="row no-gutters align-items-center mt-2">
                                     <div class="col-auto">
                                         <div id="password_progress_title"

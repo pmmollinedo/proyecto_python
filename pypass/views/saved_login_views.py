@@ -115,10 +115,14 @@ class PyPassUpdateLoginView(LoginRequiredMixin, UpdateView):
     model = UserSavedLogin
     form_class = SavedLoginForm
     success_url = reverse_lazy('pypass:list_login')
+    
+    def get_form(self, form_class=None):
+        form = super(PyPassUpdateLoginView, self).get_form()
+        form = get_form_with_decrypted_password(form)
+        return form
 
     def get_context_data(self, *, object_list=None, **kwargs):
         context = super().get_context_data(**kwargs)
-        context['form'] = get_form_with_decrypted_password(context['form'])
         context['brand_icons_list'] = BrandIcon.objects.filter(is_activated=True)
         context["web_title"] = "Update"
         context['page_heading_title'] = "Update"
