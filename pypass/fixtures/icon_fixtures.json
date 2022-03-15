@@ -1,0 +1,4572 @@
+[
+    {
+        "model": "pypass.brandicon",
+        "pk": 1,
+        "fields": {
+            "brand_name": "default",
+            "brand_icon_class": "fas fa-key",
+            "brand_importance_order": 0,
+            "is_activated": true
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 2,
+        "fields": {
+            "brand_name": "500px",
+            "brand_icon_class": "fab fa-500px",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 3,
+        "fields": {
+            "brand_name": "accessible-icon",
+            "brand_icon_class": "fab fa-accessible-icon",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 4,
+        "fields": {
+            "brand_name": "accusoft",
+            "brand_icon_class": "fab fa-accusoft",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 5,
+        "fields": {
+            "brand_name": "acquisitions-incorporated",
+            "brand_icon_class": "fab fa-acquisitions-incorporated",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 6,
+        "fields": {
+            "brand_name": "adn",
+            "brand_icon_class": "fab fa-adn",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 7,
+        "fields": {
+            "brand_name": "adversal",
+            "brand_icon_class": "fab fa-adversal",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 8,
+        "fields": {
+            "brand_name": "affiliatetheme",
+            "brand_icon_class": "fab fa-affiliatetheme",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 9,
+        "fields": {
+            "brand_name": "airbnb",
+            "brand_icon_class": "fab fa-airbnb",
+            "brand_importance_order": 1,
+            "is_activated": true
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 10,
+        "fields": {
+            "brand_name": "algolia",
+            "brand_icon_class": "fab fa-algolia",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 11,
+        "fields": {
+            "brand_name": "alipay",
+            "brand_icon_class": "fab fa-alipay",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 12,
+        "fields": {
+            "brand_name": "amazon",
+            "brand_icon_class": "fab fa-amazon",
+            "brand_importance_order": 1,
+            "is_activated": true
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 13,
+        "fields": {
+            "brand_name": "amazon-pay",
+            "brand_icon_class": "fab fa-amazon-pay",
+            "brand_importance_order": 1,
+            "is_activated": true
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 14,
+        "fields": {
+            "brand_name": "amilia",
+            "brand_icon_class": "fab fa-amilia",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 15,
+        "fields": {
+            "brand_name": "android",
+            "brand_icon_class": "fab fa-android",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 16,
+        "fields": {
+            "brand_name": "angellist",
+            "brand_icon_class": "fab fa-angellist",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 17,
+        "fields": {
+            "brand_name": "angrycreative",
+            "brand_icon_class": "fab fa-angrycreative",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 18,
+        "fields": {
+            "brand_name": "angular",
+            "brand_icon_class": "fab fa-angular",
+            "brand_importance_order": 1,
+            "is_activated": true
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 19,
+        "fields": {
+            "brand_name": "app-store",
+            "brand_icon_class": "fab fa-app-store",
+            "brand_importance_order": 1,
+            "is_activated": true
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 20,
+        "fields": {
+            "brand_name": "app-store-ios",
+            "brand_icon_class": "fab fa-app-store-ios",
+            "brand_importance_order": 1,
+            "is_activated": true
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 21,
+        "fields": {
+            "brand_name": "apper",
+            "brand_icon_class": "fab fa-apper",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 22,
+        "fields": {
+            "brand_name": "apple",
+            "brand_icon_class": "fab fa-apple",
+            "brand_importance_order": 1,
+            "is_activated": true
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 23,
+        "fields": {
+            "brand_name": "apple-pay",
+            "brand_icon_class": "fab fa-apple-pay",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 24,
+        "fields": {
+            "brand_name": "artstation",
+            "brand_icon_class": "fab fa-artstation",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 25,
+        "fields": {
+            "brand_name": "asymmetrik",
+            "brand_icon_class": "fab fa-asymmetrik",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 26,
+        "fields": {
+            "brand_name": "atlassian",
+            "brand_icon_class": "fab fa-atlassian",
+            "brand_importance_order": 1,
+            "is_activated": true
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 27,
+        "fields": {
+            "brand_name": "audible",
+            "brand_icon_class": "fab fa-audible",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 28,
+        "fields": {
+            "brand_name": "autoprefixer",
+            "brand_icon_class": "fab fa-autoprefixer",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 29,
+        "fields": {
+            "brand_name": "avianex",
+            "brand_icon_class": "fab fa-avianex",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 30,
+        "fields": {
+            "brand_name": "aviato",
+            "brand_icon_class": "fab fa-aviato",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 31,
+        "fields": {
+            "brand_name": "aws",
+            "brand_icon_class": "fab fa-aws",
+            "brand_importance_order": 1,
+            "is_activated": true
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 32,
+        "fields": {
+            "brand_name": "bandcamp",
+            "brand_icon_class": "fab fa-bandcamp",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 33,
+        "fields": {
+            "brand_name": "battle-net",
+            "brand_icon_class": "fab fa-battle-net",
+            "brand_importance_order": 1,
+            "is_activated": true
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 34,
+        "fields": {
+            "brand_name": "behance",
+            "brand_icon_class": "fab fa-behance",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 35,
+        "fields": {
+            "brand_name": "behance-square",
+            "brand_icon_class": "fab fa-behance-square",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 36,
+        "fields": {
+            "brand_name": "bimobject",
+            "brand_icon_class": "fab fa-bimobject",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 37,
+        "fields": {
+            "brand_name": "bitbucket",
+            "brand_icon_class": "fab fa-bitbucket",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 38,
+        "fields": {
+            "brand_name": "bitcoin",
+            "brand_icon_class": "fab fa-bitcoin",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 39,
+        "fields": {
+            "brand_name": "bity",
+            "brand_icon_class": "fab fa-bity",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 40,
+        "fields": {
+            "brand_name": "black-tie",
+            "brand_icon_class": "fab fa-black-tie",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 41,
+        "fields": {
+            "brand_name": "blackberry",
+            "brand_icon_class": "fab fa-blackberry",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 42,
+        "fields": {
+            "brand_name": "blogger",
+            "brand_icon_class": "fab fa-blogger",
+            "brand_importance_order": 1,
+            "is_activated": true
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 43,
+        "fields": {
+            "brand_name": "blogger-b",
+            "brand_icon_class": "fab fa-blogger-b",
+            "brand_importance_order": 1,
+            "is_activated": true
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 44,
+        "fields": {
+            "brand_name": "bluetooth",
+            "brand_icon_class": "fab fa-bluetooth",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 45,
+        "fields": {
+            "brand_name": "bluetooth-b",
+            "brand_icon_class": "fab fa-bluetooth-b",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 46,
+        "fields": {
+            "brand_name": "bootstrap",
+            "brand_icon_class": "fab fa-bootstrap",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 47,
+        "fields": {
+            "brand_name": "btc",
+            "brand_icon_class": "fab fa-btc",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 48,
+        "fields": {
+            "brand_name": "buffer",
+            "brand_icon_class": "fab fa-buffer",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 49,
+        "fields": {
+            "brand_name": "buromobelexperte",
+            "brand_icon_class": "fab fa-buromobelexperte",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 50,
+        "fields": {
+            "brand_name": "buy-n-large",
+            "brand_icon_class": "fab fa-buy-n-large",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 51,
+        "fields": {
+            "brand_name": "buysellads",
+            "brand_icon_class": "fab fa-buysellads",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 52,
+        "fields": {
+            "brand_name": "canadian-maple-leaf",
+            "brand_icon_class": "fab fa-canadian-maple-leaf",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 53,
+        "fields": {
+            "brand_name": "cc-amazon-pay",
+            "brand_icon_class": "fab fa-cc-amazon-pay",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 54,
+        "fields": {
+            "brand_name": "cc-amex",
+            "brand_icon_class": "fab fa-cc-amex",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 55,
+        "fields": {
+            "brand_name": "cc-apple-pay",
+            "brand_icon_class": "fab fa-cc-apple-pay",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 56,
+        "fields": {
+            "brand_name": "cc-diners-club",
+            "brand_icon_class": "fab fa-cc-diners-club",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 57,
+        "fields": {
+            "brand_name": "cc-discover",
+            "brand_icon_class": "fab fa-cc-discover",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 58,
+        "fields": {
+            "brand_name": "cc-jcb",
+            "brand_icon_class": "fab fa-cc-jcb",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 59,
+        "fields": {
+            "brand_name": "cc-mastercard",
+            "brand_icon_class": "fab fa-cc-mastercard",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 60,
+        "fields": {
+            "brand_name": "cc-paypal",
+            "brand_icon_class": "fab fa-cc-paypal",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 61,
+        "fields": {
+            "brand_name": "cc-stripe",
+            "brand_icon_class": "fab fa-cc-stripe",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 62,
+        "fields": {
+            "brand_name": "cc-visa",
+            "brand_icon_class": "fab fa-cc-visa",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 63,
+        "fields": {
+            "brand_name": "centercode",
+            "brand_icon_class": "fab fa-centercode",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 64,
+        "fields": {
+            "brand_name": "centos",
+            "brand_icon_class": "fab fa-centos",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 65,
+        "fields": {
+            "brand_name": "chrome",
+            "brand_icon_class": "fab fa-chrome",
+            "brand_importance_order": 1,
+            "is_activated": true
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 66,
+        "fields": {
+            "brand_name": "chromecast",
+            "brand_icon_class": "fab fa-chromecast",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 67,
+        "fields": {
+            "brand_name": "cloudflare",
+            "brand_icon_class": "fab fa-cloudflare",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 68,
+        "fields": {
+            "brand_name": "cloudscale",
+            "brand_icon_class": "fab fa-cloudscale",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 69,
+        "fields": {
+            "brand_name": "cloudsmith",
+            "brand_icon_class": "fab fa-cloudsmith",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 70,
+        "fields": {
+            "brand_name": "cloudversify",
+            "brand_icon_class": "fab fa-cloudversify",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 71,
+        "fields": {
+            "brand_name": "codepen",
+            "brand_icon_class": "fab fa-codepen",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 72,
+        "fields": {
+            "brand_name": "codiepie",
+            "brand_icon_class": "fab fa-codiepie",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 73,
+        "fields": {
+            "brand_name": "confluence",
+            "brand_icon_class": "fab fa-confluence",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 74,
+        "fields": {
+            "brand_name": "connectdevelop",
+            "brand_icon_class": "fab fa-connectdevelop",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 75,
+        "fields": {
+            "brand_name": "contao",
+            "brand_icon_class": "fab fa-contao",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 76,
+        "fields": {
+            "brand_name": "cotton-bureau",
+            "brand_icon_class": "fab fa-cotton-bureau",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 77,
+        "fields": {
+            "brand_name": "cpanel",
+            "brand_icon_class": "fab fa-cpanel",
+            "brand_importance_order": 1,
+            "is_activated": true
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 78,
+        "fields": {
+            "brand_name": "creative-commons",
+            "brand_icon_class": "fab fa-creative-commons",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 79,
+        "fields": {
+            "brand_name": "creative-commons-by",
+            "brand_icon_class": "fab fa-creative-commons-by",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 80,
+        "fields": {
+            "brand_name": "creative-commons-nc",
+            "brand_icon_class": "fab fa-creative-commons-nc",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 81,
+        "fields": {
+            "brand_name": "creative-commons-nc-eu",
+            "brand_icon_class": "fab fa-creative-commons-nc-eu",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 82,
+        "fields": {
+            "brand_name": "creative-commons-nc-jp",
+            "brand_icon_class": "fab fa-creative-commons-nc-jp",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 83,
+        "fields": {
+            "brand_name": "creative-commons-nd",
+            "brand_icon_class": "fab fa-creative-commons-nd",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 84,
+        "fields": {
+            "brand_name": "creative-commons-pd",
+            "brand_icon_class": "fab fa-creative-commons-pd",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 85,
+        "fields": {
+            "brand_name": "creative-commons-pd-alt",
+            "brand_icon_class": "fab fa-creative-commons-pd-alt",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 86,
+        "fields": {
+            "brand_name": "creative-commons-remix",
+            "brand_icon_class": "fab fa-creative-commons-remix",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 87,
+        "fields": {
+            "brand_name": "creative-commons-sa",
+            "brand_icon_class": "fab fa-creative-commons-sa",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 88,
+        "fields": {
+            "brand_name": "creative-commons-sampling",
+            "brand_icon_class": "fab fa-creative-commons-sampling",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 89,
+        "fields": {
+            "brand_name": "creative-commons-sampling-plus",
+            "brand_icon_class": "fab fa-creative-commons-sampling-plus",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 90,
+        "fields": {
+            "brand_name": "creative-commons-share",
+            "brand_icon_class": "fab fa-creative-commons-share",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 91,
+        "fields": {
+            "brand_name": "creative-commons-zero",
+            "brand_icon_class": "fab fa-creative-commons-zero",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 92,
+        "fields": {
+            "brand_name": "critical-role",
+            "brand_icon_class": "fab fa-critical-role",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 93,
+        "fields": {
+            "brand_name": "css3",
+            "brand_icon_class": "fab fa-css3",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 94,
+        "fields": {
+            "brand_name": "css3-alt",
+            "brand_icon_class": "fab fa-css3-alt",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 95,
+        "fields": {
+            "brand_name": "cuttlefish",
+            "brand_icon_class": "fab fa-cuttlefish",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 96,
+        "fields": {
+            "brand_name": "d-and-d",
+            "brand_icon_class": "fab fa-d-and-d",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 97,
+        "fields": {
+            "brand_name": "d-and-d-beyond",
+            "brand_icon_class": "fab fa-d-and-d-beyond",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 98,
+        "fields": {
+            "brand_name": "dailymotion",
+            "brand_icon_class": "fab fa-dailymotion",
+            "brand_importance_order": 1,
+            "is_activated": true
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 99,
+        "fields": {
+            "brand_name": "dashcube",
+            "brand_icon_class": "fab fa-dashcube",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 100,
+        "fields": {
+            "brand_name": "deezer",
+            "brand_icon_class": "fab fa-deezer",
+            "brand_importance_order": 1,
+            "is_activated": true
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 101,
+        "fields": {
+            "brand_name": "delicious",
+            "brand_icon_class": "fab fa-delicious",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 102,
+        "fields": {
+            "brand_name": "deploydog",
+            "brand_icon_class": "fab fa-deploydog",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 103,
+        "fields": {
+            "brand_name": "deskpro",
+            "brand_icon_class": "fab fa-deskpro",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 104,
+        "fields": {
+            "brand_name": "dev",
+            "brand_icon_class": "fab fa-dev",
+            "brand_importance_order": 1,
+            "is_activated": true
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 105,
+        "fields": {
+            "brand_name": "deviantart",
+            "brand_icon_class": "fab fa-deviantart",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 106,
+        "fields": {
+            "brand_name": "dhl",
+            "brand_icon_class": "fab fa-dhl",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 107,
+        "fields": {
+            "brand_name": "diaspora",
+            "brand_icon_class": "fab fa-diaspora",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 108,
+        "fields": {
+            "brand_name": "digg",
+            "brand_icon_class": "fab fa-digg",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 109,
+        "fields": {
+            "brand_name": "digital-ocean",
+            "brand_icon_class": "fab fa-digital-ocean",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 110,
+        "fields": {
+            "brand_name": "discord",
+            "brand_icon_class": "fab fa-discord",
+            "brand_importance_order": 1,
+            "is_activated": true
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 111,
+        "fields": {
+            "brand_name": "discourse",
+            "brand_icon_class": "fab fa-discourse",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 112,
+        "fields": {
+            "brand_name": "dochub",
+            "brand_icon_class": "fab fa-dochub",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 113,
+        "fields": {
+            "brand_name": "docker",
+            "brand_icon_class": "fab fa-docker",
+            "brand_importance_order": 1,
+            "is_activated": true
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 114,
+        "fields": {
+            "brand_name": "draft2digital",
+            "brand_icon_class": "fab fa-draft2digital",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 115,
+        "fields": {
+            "brand_name": "dribbble",
+            "brand_icon_class": "fab fa-dribbble",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 116,
+        "fields": {
+            "brand_name": "dribbble-square",
+            "brand_icon_class": "fab fa-dribbble-square",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 117,
+        "fields": {
+            "brand_name": "dropbox",
+            "brand_icon_class": "fab fa-dropbox",
+            "brand_importance_order": 1,
+            "is_activated": true
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 118,
+        "fields": {
+            "brand_name": "drupal",
+            "brand_icon_class": "fab fa-drupal",
+            "brand_importance_order": 1,
+            "is_activated": true
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 119,
+        "fields": {
+            "brand_name": "dyalog",
+            "brand_icon_class": "fab fa-dyalog",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 120,
+        "fields": {
+            "brand_name": "earlybirds",
+            "brand_icon_class": "fab fa-earlybirds",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 121,
+        "fields": {
+            "brand_name": "ebay",
+            "brand_icon_class": "fab fa-ebay",
+            "brand_importance_order": 1,
+            "is_activated": true
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 122,
+        "fields": {
+            "brand_name": "edge",
+            "brand_icon_class": "fab fa-edge",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 123,
+        "fields": {
+            "brand_name": "edge-legacy",
+            "brand_icon_class": "fab fa-edge-legacy",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 124,
+        "fields": {
+            "brand_name": "elementor",
+            "brand_icon_class": "fab fa-elementor",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 125,
+        "fields": {
+            "brand_name": "ello",
+            "brand_icon_class": "fab fa-ello",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 126,
+        "fields": {
+            "brand_name": "ember",
+            "brand_icon_class": "fab fa-ember",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 127,
+        "fields": {
+            "brand_name": "empire",
+            "brand_icon_class": "fab fa-empire",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 128,
+        "fields": {
+            "brand_name": "envira",
+            "brand_icon_class": "fab fa-envira",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 129,
+        "fields": {
+            "brand_name": "erlang",
+            "brand_icon_class": "fab fa-erlang",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 130,
+        "fields": {
+            "brand_name": "ethereum",
+            "brand_icon_class": "fab fa-ethereum",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 131,
+        "fields": {
+            "brand_name": "etsy",
+            "brand_icon_class": "fab fa-etsy",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 132,
+        "fields": {
+            "brand_name": "evernote",
+            "brand_icon_class": "fab fa-evernote",
+            "brand_importance_order": 1,
+            "is_activated": true
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 133,
+        "fields": {
+            "brand_name": "expeditedssl",
+            "brand_icon_class": "fab fa-expeditedssl",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 134,
+        "fields": {
+            "brand_name": "facebook",
+            "brand_icon_class": "fab fa-facebook",
+            "brand_importance_order": 1,
+            "is_activated": true
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 135,
+        "fields": {
+            "brand_name": "facebook-f",
+            "brand_icon_class": "fab fa-facebook-f",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 136,
+        "fields": {
+            "brand_name": "facebook-messenger",
+            "brand_icon_class": "fab fa-facebook-messenger",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 137,
+        "fields": {
+            "brand_name": "facebook-square",
+            "brand_icon_class": "fab fa-facebook-square",
+            "brand_importance_order": 1,
+            "is_activated": true
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 138,
+        "fields": {
+            "brand_name": "fantasy-flight-games",
+            "brand_icon_class": "fab fa-fantasy-flight-games",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 139,
+        "fields": {
+            "brand_name": "fedex",
+            "brand_icon_class": "fab fa-fedex",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 140,
+        "fields": {
+            "brand_name": "fedora",
+            "brand_icon_class": "fab fa-fedora",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 141,
+        "fields": {
+            "brand_name": "figma",
+            "brand_icon_class": "fab fa-figma",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 142,
+        "fields": {
+            "brand_name": "firefox",
+            "brand_icon_class": "fab fa-firefox",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 143,
+        "fields": {
+            "brand_name": "firefox-browser",
+            "brand_icon_class": "fab fa-firefox-browser",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 144,
+        "fields": {
+            "brand_name": "first-order",
+            "brand_icon_class": "fab fa-first-order",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 145,
+        "fields": {
+            "brand_name": "first-order-alt",
+            "brand_icon_class": "fab fa-first-order-alt",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 146,
+        "fields": {
+            "brand_name": "firstdraft",
+            "brand_icon_class": "fab fa-firstdraft",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 147,
+        "fields": {
+            "brand_name": "flickr",
+            "brand_icon_class": "fab fa-flickr",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 148,
+        "fields": {
+            "brand_name": "flipboard",
+            "brand_icon_class": "fab fa-flipboard",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 149,
+        "fields": {
+            "brand_name": "fly",
+            "brand_icon_class": "fab fa-fly",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 150,
+        "fields": {
+            "brand_name": "font-awesome",
+            "brand_icon_class": "fab fa-font-awesome",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 151,
+        "fields": {
+            "brand_name": "font-awesome-alt",
+            "brand_icon_class": "fab fa-font-awesome-alt",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 152,
+        "fields": {
+            "brand_name": "font-awesome-flag",
+            "brand_icon_class": "fab fa-font-awesome-flag",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 153,
+        "fields": {
+            "brand_name": "fonticons",
+            "brand_icon_class": "fab fa-fonticons",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 154,
+        "fields": {
+            "brand_name": "fonticons-fi",
+            "brand_icon_class": "fab fa-fonticons-fi",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 155,
+        "fields": {
+            "brand_name": "fort-awesome",
+            "brand_icon_class": "fab fa-fort-awesome",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 156,
+        "fields": {
+            "brand_name": "fort-awesome-alt",
+            "brand_icon_class": "fab fa-fort-awesome-alt",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 157,
+        "fields": {
+            "brand_name": "forumbee",
+            "brand_icon_class": "fab fa-forumbee",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 158,
+        "fields": {
+            "brand_name": "foursquare",
+            "brand_icon_class": "fab fa-foursquare",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 159,
+        "fields": {
+            "brand_name": "free-code-camp",
+            "brand_icon_class": "fab fa-free-code-camp",
+            "brand_importance_order": 1,
+            "is_activated": true
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 160,
+        "fields": {
+            "brand_name": "freebsd",
+            "brand_icon_class": "fab fa-freebsd",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 161,
+        "fields": {
+            "brand_name": "fulcrum",
+            "brand_icon_class": "fab fa-fulcrum",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 162,
+        "fields": {
+            "brand_name": "galactic-republic",
+            "brand_icon_class": "fab fa-galactic-republic",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 163,
+        "fields": {
+            "brand_name": "galactic-senate",
+            "brand_icon_class": "fab fa-galactic-senate",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 164,
+        "fields": {
+            "brand_name": "get-pocket",
+            "brand_icon_class": "fab fa-get-pocket",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 165,
+        "fields": {
+            "brand_name": "gg",
+            "brand_icon_class": "fab fa-gg",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 166,
+        "fields": {
+            "brand_name": "gg-circle",
+            "brand_icon_class": "fab fa-gg-circle",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 167,
+        "fields": {
+            "brand_name": "git",
+            "brand_icon_class": "fab fa-git",
+            "brand_importance_order": 1,
+            "is_activated": true
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 168,
+        "fields": {
+            "brand_name": "git-alt",
+            "brand_icon_class": "fab fa-git-alt",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 169,
+        "fields": {
+            "brand_name": "git-square",
+            "brand_icon_class": "fab fa-git-square",
+            "brand_importance_order": 1,
+            "is_activated": true
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 170,
+        "fields": {
+            "brand_name": "github",
+            "brand_icon_class": "fab fa-github",
+            "brand_importance_order": 1,
+            "is_activated": true
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 171,
+        "fields": {
+            "brand_name": "github-alt",
+            "brand_icon_class": "fab fa-github-alt",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 172,
+        "fields": {
+            "brand_name": "github-square",
+            "brand_icon_class": "fab fa-github-square",
+            "brand_importance_order": 1,
+            "is_activated": true
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 173,
+        "fields": {
+            "brand_name": "gitkraken",
+            "brand_icon_class": "fab fa-gitkraken",
+            "brand_importance_order": 1,
+            "is_activated": true
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 174,
+        "fields": {
+            "brand_name": "gitlab",
+            "brand_icon_class": "fab fa-gitlab",
+            "brand_importance_order": 1,
+            "is_activated": true
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 175,
+        "fields": {
+            "brand_name": "gitter",
+            "brand_icon_class": "fab fa-gitter",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 176,
+        "fields": {
+            "brand_name": "glide",
+            "brand_icon_class": "fab fa-glide",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 177,
+        "fields": {
+            "brand_name": "glide-g",
+            "brand_icon_class": "fab fa-glide-g",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 178,
+        "fields": {
+            "brand_name": "gofore",
+            "brand_icon_class": "fab fa-gofore",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 179,
+        "fields": {
+            "brand_name": "goodreads",
+            "brand_icon_class": "fab fa-goodreads",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 180,
+        "fields": {
+            "brand_name": "goodreads-g",
+            "brand_icon_class": "fab fa-goodreads-g",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 181,
+        "fields": {
+            "brand_name": "google",
+            "brand_icon_class": "fab fa-google",
+            "brand_importance_order": 1,
+            "is_activated": true
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 182,
+        "fields": {
+            "brand_name": "google-drive",
+            "brand_icon_class": "fab fa-google-drive",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 183,
+        "fields": {
+            "brand_name": "google-pay",
+            "brand_icon_class": "fab fa-google-pay",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 184,
+        "fields": {
+            "brand_name": "google-play",
+            "brand_icon_class": "fab fa-google-play",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 185,
+        "fields": {
+            "brand_name": "google-plus",
+            "brand_icon_class": "fab fa-google-plus",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 186,
+        "fields": {
+            "brand_name": "google-plus-g",
+            "brand_icon_class": "fab fa-google-plus-g",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 187,
+        "fields": {
+            "brand_name": "google-plus-square",
+            "brand_icon_class": "fab fa-google-plus-square",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 188,
+        "fields": {
+            "brand_name": "google-wallet",
+            "brand_icon_class": "fab fa-google-wallet",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 189,
+        "fields": {
+            "brand_name": "gratipay",
+            "brand_icon_class": "fab fa-gratipay",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 190,
+        "fields": {
+            "brand_name": "grav",
+            "brand_icon_class": "fab fa-grav",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 191,
+        "fields": {
+            "brand_name": "gripfire",
+            "brand_icon_class": "fab fa-gripfire",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 192,
+        "fields": {
+            "brand_name": "grunt",
+            "brand_icon_class": "fab fa-grunt",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 193,
+        "fields": {
+            "brand_name": "guilded",
+            "brand_icon_class": "fab fa-guilded",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 194,
+        "fields": {
+            "brand_name": "gulp",
+            "brand_icon_class": "fab fa-gulp",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 195,
+        "fields": {
+            "brand_name": "hacker-news",
+            "brand_icon_class": "fab fa-hacker-news",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 196,
+        "fields": {
+            "brand_name": "hacker-news-square",
+            "brand_icon_class": "fab fa-hacker-news-square",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 197,
+        "fields": {
+            "brand_name": "hackerrank",
+            "brand_icon_class": "fab fa-hackerrank",
+            "brand_importance_order": 1,
+            "is_activated": true
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 198,
+        "fields": {
+            "brand_name": "hips",
+            "brand_icon_class": "fab fa-hips",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 199,
+        "fields": {
+            "brand_name": "hire-a-helper",
+            "brand_icon_class": "fab fa-hire-a-helper",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 200,
+        "fields": {
+            "brand_name": "hive",
+            "brand_icon_class": "fab fa-hive",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 201,
+        "fields": {
+            "brand_name": "hooli",
+            "brand_icon_class": "fab fa-hooli",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 202,
+        "fields": {
+            "brand_name": "hornbill",
+            "brand_icon_class": "fab fa-hornbill",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 203,
+        "fields": {
+            "brand_name": "hotjar",
+            "brand_icon_class": "fab fa-hotjar",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 204,
+        "fields": {
+            "brand_name": "houzz",
+            "brand_icon_class": "fab fa-houzz",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 205,
+        "fields": {
+            "brand_name": "html5",
+            "brand_icon_class": "fab fa-html5",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 206,
+        "fields": {
+            "brand_name": "hubspot",
+            "brand_icon_class": "fab fa-hubspot",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 207,
+        "fields": {
+            "brand_name": "ideal",
+            "brand_icon_class": "fab fa-ideal",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 208,
+        "fields": {
+            "brand_name": "imdb",
+            "brand_icon_class": "fab fa-imdb",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 209,
+        "fields": {
+            "brand_name": "innosoft",
+            "brand_icon_class": "fab fa-innosoft",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 210,
+        "fields": {
+            "brand_name": "instagram",
+            "brand_icon_class": "fab fa-instagram",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 211,
+        "fields": {
+            "brand_name": "instagram-square",
+            "brand_icon_class": "fab fa-instagram-square",
+            "brand_importance_order": 1,
+            "is_activated": true
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 212,
+        "fields": {
+            "brand_name": "instalod",
+            "brand_icon_class": "fab fa-instalod",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 213,
+        "fields": {
+            "brand_name": "intercom",
+            "brand_icon_class": "fab fa-intercom",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 214,
+        "fields": {
+            "brand_name": "internet-explorer",
+            "brand_icon_class": "fab fa-internet-explorer",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 215,
+        "fields": {
+            "brand_name": "invision",
+            "brand_icon_class": "fab fa-invision",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 216,
+        "fields": {
+            "brand_name": "ioxhost",
+            "brand_icon_class": "fab fa-ioxhost",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 217,
+        "fields": {
+            "brand_name": "itch-io",
+            "brand_icon_class": "fab fa-itch-io",
+            "brand_importance_order": 1,
+            "is_activated": true
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 218,
+        "fields": {
+            "brand_name": "itunes",
+            "brand_icon_class": "fab fa-itunes",
+            "brand_importance_order": 1,
+            "is_activated": true
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 219,
+        "fields": {
+            "brand_name": "itunes-note",
+            "brand_icon_class": "fab fa-itunes-note",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 220,
+        "fields": {
+            "brand_name": "java",
+            "brand_icon_class": "fab fa-java",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 221,
+        "fields": {
+            "brand_name": "jedi-order",
+            "brand_icon_class": "fab fa-jedi-order",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 222,
+        "fields": {
+            "brand_name": "jenkins",
+            "brand_icon_class": "fab fa-jenkins",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 223,
+        "fields": {
+            "brand_name": "jira",
+            "brand_icon_class": "fab fa-jira",
+            "brand_importance_order": 1,
+            "is_activated": true
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 224,
+        "fields": {
+            "brand_name": "joget",
+            "brand_icon_class": "fab fa-joget",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 225,
+        "fields": {
+            "brand_name": "joomla",
+            "brand_icon_class": "fab fa-joomla",
+            "brand_importance_order": 1,
+            "is_activated": true
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 226,
+        "fields": {
+            "brand_name": "js",
+            "brand_icon_class": "fab fa-js",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 227,
+        "fields": {
+            "brand_name": "js-square",
+            "brand_icon_class": "fab fa-js-square",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 228,
+        "fields": {
+            "brand_name": "jsfiddle",
+            "brand_icon_class": "fab fa-jsfiddle",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 229,
+        "fields": {
+            "brand_name": "kaggle",
+            "brand_icon_class": "fab fa-kaggle",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 230,
+        "fields": {
+            "brand_name": "keybase",
+            "brand_icon_class": "fab fa-keybase",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 231,
+        "fields": {
+            "brand_name": "keycdn",
+            "brand_icon_class": "fab fa-keycdn",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 232,
+        "fields": {
+            "brand_name": "kickstarter",
+            "brand_icon_class": "fab fa-kickstarter",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 233,
+        "fields": {
+            "brand_name": "kickstarter-k",
+            "brand_icon_class": "fab fa-kickstarter-k",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 234,
+        "fields": {
+            "brand_name": "korvue",
+            "brand_icon_class": "fab fa-korvue",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 235,
+        "fields": {
+            "brand_name": "laravel",
+            "brand_icon_class": "fab fa-laravel",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 236,
+        "fields": {
+            "brand_name": "lastfm",
+            "brand_icon_class": "fab fa-lastfm",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 237,
+        "fields": {
+            "brand_name": "lastfm-square",
+            "brand_icon_class": "fab fa-lastfm-square",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 238,
+        "fields": {
+            "brand_name": "leanpub",
+            "brand_icon_class": "fab fa-leanpub",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 239,
+        "fields": {
+            "brand_name": "less",
+            "brand_icon_class": "fab fa-less",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 240,
+        "fields": {
+            "brand_name": "line",
+            "brand_icon_class": "fab fa-line",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 241,
+        "fields": {
+            "brand_name": "linkedin",
+            "brand_icon_class": "fab fa-linkedin",
+            "brand_importance_order": 1,
+            "is_activated": true
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 242,
+        "fields": {
+            "brand_name": "linkedin-in",
+            "brand_icon_class": "fab fa-linkedin-in",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 243,
+        "fields": {
+            "brand_name": "linode",
+            "brand_icon_class": "fab fa-linode",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 244,
+        "fields": {
+            "brand_name": "linux",
+            "brand_icon_class": "fab fa-linux",
+            "brand_importance_order": 1,
+            "is_activated": true
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 245,
+        "fields": {
+            "brand_name": "lyft",
+            "brand_icon_class": "fab fa-lyft",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 246,
+        "fields": {
+            "brand_name": "magento",
+            "brand_icon_class": "fab fa-magento",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 247,
+        "fields": {
+            "brand_name": "mailchimp",
+            "brand_icon_class": "fab fa-mailchimp",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 248,
+        "fields": {
+            "brand_name": "mandalorian",
+            "brand_icon_class": "fab fa-mandalorian",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 249,
+        "fields": {
+            "brand_name": "markdown",
+            "brand_icon_class": "fab fa-markdown",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 250,
+        "fields": {
+            "brand_name": "mastodon",
+            "brand_icon_class": "fab fa-mastodon",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 251,
+        "fields": {
+            "brand_name": "maxcdn",
+            "brand_icon_class": "fab fa-maxcdn",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 252,
+        "fields": {
+            "brand_name": "mdb",
+            "brand_icon_class": "fab fa-mdb",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 253,
+        "fields": {
+            "brand_name": "medapps",
+            "brand_icon_class": "fab fa-medapps",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 254,
+        "fields": {
+            "brand_name": "medium",
+            "brand_icon_class": "fab fa-medium",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 255,
+        "fields": {
+            "brand_name": "medium-m",
+            "brand_icon_class": "fab fa-medium-m",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 256,
+        "fields": {
+            "brand_name": "medrt",
+            "brand_icon_class": "fab fa-medrt",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 257,
+        "fields": {
+            "brand_name": "meetup",
+            "brand_icon_class": "fab fa-meetup",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 258,
+        "fields": {
+            "brand_name": "megaport",
+            "brand_icon_class": "fab fa-megaport",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 259,
+        "fields": {
+            "brand_name": "mendeley",
+            "brand_icon_class": "fab fa-mendeley",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 260,
+        "fields": {
+            "brand_name": "microblog",
+            "brand_icon_class": "fab fa-microblog",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 261,
+        "fields": {
+            "brand_name": "microsoft",
+            "brand_icon_class": "fab fa-microsoft",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 262,
+        "fields": {
+            "brand_name": "mix",
+            "brand_icon_class": "fab fa-mix",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 263,
+        "fields": {
+            "brand_name": "mixcloud",
+            "brand_icon_class": "fab fa-mixcloud",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 264,
+        "fields": {
+            "brand_name": "mixer",
+            "brand_icon_class": "fab fa-mixer",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 265,
+        "fields": {
+            "brand_name": "mizuni",
+            "brand_icon_class": "fab fa-mizuni",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 266,
+        "fields": {
+            "brand_name": "modx",
+            "brand_icon_class": "fab fa-modx",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 267,
+        "fields": {
+            "brand_name": "monero",
+            "brand_icon_class": "fab fa-monero",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 268,
+        "fields": {
+            "brand_name": "napster",
+            "brand_icon_class": "fab fa-napster",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 269,
+        "fields": {
+            "brand_name": "neos",
+            "brand_icon_class": "fab fa-neos",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 270,
+        "fields": {
+            "brand_name": "nimblr",
+            "brand_icon_class": "fab fa-nimblr",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 271,
+        "fields": {
+            "brand_name": "node",
+            "brand_icon_class": "fab fa-node",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 272,
+        "fields": {
+            "brand_name": "node-js",
+            "brand_icon_class": "fab fa-node-js",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 273,
+        "fields": {
+            "brand_name": "npm",
+            "brand_icon_class": "fab fa-npm",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 274,
+        "fields": {
+            "brand_name": "ns8",
+            "brand_icon_class": "fab fa-ns8",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 275,
+        "fields": {
+            "brand_name": "nutritionix",
+            "brand_icon_class": "fab fa-nutritionix",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 276,
+        "fields": {
+            "brand_name": "octopus-deploy",
+            "brand_icon_class": "fab fa-octopus-deploy",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 277,
+        "fields": {
+            "brand_name": "odnoklassniki",
+            "brand_icon_class": "fab fa-odnoklassniki",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 278,
+        "fields": {
+            "brand_name": "odnoklassniki-square",
+            "brand_icon_class": "fab fa-odnoklassniki-square",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 279,
+        "fields": {
+            "brand_name": "old-republic",
+            "brand_icon_class": "fab fa-old-republic",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 280,
+        "fields": {
+            "brand_name": "opencart",
+            "brand_icon_class": "fab fa-opencart",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 281,
+        "fields": {
+            "brand_name": "openid",
+            "brand_icon_class": "fab fa-openid",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 282,
+        "fields": {
+            "brand_name": "opera",
+            "brand_icon_class": "fab fa-opera",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 283,
+        "fields": {
+            "brand_name": "optin-monster",
+            "brand_icon_class": "fab fa-optin-monster",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 284,
+        "fields": {
+            "brand_name": "orcid",
+            "brand_icon_class": "fab fa-orcid",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 285,
+        "fields": {
+            "brand_name": "osi",
+            "brand_icon_class": "fab fa-osi",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 286,
+        "fields": {
+            "brand_name": "page4",
+            "brand_icon_class": "fab fa-page4",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 287,
+        "fields": {
+            "brand_name": "pagelines",
+            "brand_icon_class": "fab fa-pagelines",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 288,
+        "fields": {
+            "brand_name": "palfed",
+            "brand_icon_class": "fab fa-palfed",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 289,
+        "fields": {
+            "brand_name": "patreon",
+            "brand_icon_class": "fab fa-patreon",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 290,
+        "fields": {
+            "brand_name": "paypal",
+            "brand_icon_class": "fab fa-paypal",
+            "brand_importance_order": 1,
+            "is_activated": true
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 291,
+        "fields": {
+            "brand_name": "penny-arcade",
+            "brand_icon_class": "fab fa-penny-arcade",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 292,
+        "fields": {
+            "brand_name": "perbyte",
+            "brand_icon_class": "fab fa-perbyte",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 293,
+        "fields": {
+            "brand_name": "periscope",
+            "brand_icon_class": "fab fa-periscope",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 294,
+        "fields": {
+            "brand_name": "phabricator",
+            "brand_icon_class": "fab fa-phabricator",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 295,
+        "fields": {
+            "brand_name": "phoenix-framework",
+            "brand_icon_class": "fab fa-phoenix-framework",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 296,
+        "fields": {
+            "brand_name": "phoenix-squadron",
+            "brand_icon_class": "fab fa-phoenix-squadron",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 297,
+        "fields": {
+            "brand_name": "php",
+            "brand_icon_class": "fab fa-php",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 298,
+        "fields": {
+            "brand_name": "pied-piper",
+            "brand_icon_class": "fab fa-pied-piper",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 299,
+        "fields": {
+            "brand_name": "pied-piper-alt",
+            "brand_icon_class": "fab fa-pied-piper-alt",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 300,
+        "fields": {
+            "brand_name": "pied-piper-hat",
+            "brand_icon_class": "fab fa-pied-piper-hat",
+            "brand_importance_order": 1,
+            "is_activated": true
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 301,
+        "fields": {
+            "brand_name": "pied-piper-pp",
+            "brand_icon_class": "fab fa-pied-piper-pp",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 302,
+        "fields": {
+            "brand_name": "pied-piper-square",
+            "brand_icon_class": "fab fa-pied-piper-square",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 303,
+        "fields": {
+            "brand_name": "pinterest",
+            "brand_icon_class": "fab fa-pinterest",
+            "brand_importance_order": 1,
+            "is_activated": true
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 304,
+        "fields": {
+            "brand_name": "pinterest-p",
+            "brand_icon_class": "fab fa-pinterest-p",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 305,
+        "fields": {
+            "brand_name": "pinterest-square",
+            "brand_icon_class": "fab fa-pinterest-square",
+            "brand_importance_order": 1,
+            "is_activated": true
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 306,
+        "fields": {
+            "brand_name": "playstation",
+            "brand_icon_class": "fab fa-playstation",
+            "brand_importance_order": 1,
+            "is_activated": true
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 307,
+        "fields": {
+            "brand_name": "product-hunt",
+            "brand_icon_class": "fab fa-product-hunt",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 308,
+        "fields": {
+            "brand_name": "pushed",
+            "brand_icon_class": "fab fa-pushed",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 309,
+        "fields": {
+            "brand_name": "python",
+            "brand_icon_class": "fab fa-python",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 310,
+        "fields": {
+            "brand_name": "qq",
+            "brand_icon_class": "fab fa-qq",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 311,
+        "fields": {
+            "brand_name": "quinscape",
+            "brand_icon_class": "fab fa-quinscape",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 312,
+        "fields": {
+            "brand_name": "quora",
+            "brand_icon_class": "fab fa-quora",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 313,
+        "fields": {
+            "brand_name": "r-project",
+            "brand_icon_class": "fab fa-r-project",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 314,
+        "fields": {
+            "brand_name": "raspberry-pi",
+            "brand_icon_class": "fab fa-raspberry-pi",
+            "brand_importance_order": 1,
+            "is_activated": true
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 315,
+        "fields": {
+            "brand_name": "ravelry",
+            "brand_icon_class": "fab fa-ravelry",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 316,
+        "fields": {
+            "brand_name": "react",
+            "brand_icon_class": "fab fa-react",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 317,
+        "fields": {
+            "brand_name": "reacteurope",
+            "brand_icon_class": "fab fa-reacteurope",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 318,
+        "fields": {
+            "brand_name": "readme",
+            "brand_icon_class": "fab fa-readme",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 319,
+        "fields": {
+            "brand_name": "rebel",
+            "brand_icon_class": "fab fa-rebel",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 320,
+        "fields": {
+            "brand_name": "red-river",
+            "brand_icon_class": "fab fa-red-river",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 321,
+        "fields": {
+            "brand_name": "reddit",
+            "brand_icon_class": "fab fa-reddit",
+            "brand_importance_order": 1,
+            "is_activated": true
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 322,
+        "fields": {
+            "brand_name": "reddit-alien",
+            "brand_icon_class": "fab fa-reddit-alien",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 323,
+        "fields": {
+            "brand_name": "reddit-square",
+            "brand_icon_class": "fab fa-reddit-square",
+            "brand_importance_order": 1,
+            "is_activated": true
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 324,
+        "fields": {
+            "brand_name": "redhat",
+            "brand_icon_class": "fab fa-redhat",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 325,
+        "fields": {
+            "brand_name": "renren",
+            "brand_icon_class": "fab fa-renren",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 326,
+        "fields": {
+            "brand_name": "replyd",
+            "brand_icon_class": "fab fa-replyd",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 327,
+        "fields": {
+            "brand_name": "researchgate",
+            "brand_icon_class": "fab fa-researchgate",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 328,
+        "fields": {
+            "brand_name": "resolving",
+            "brand_icon_class": "fab fa-resolving",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 329,
+        "fields": {
+            "brand_name": "rev",
+            "brand_icon_class": "fab fa-rev",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 330,
+        "fields": {
+            "brand_name": "rocketchat",
+            "brand_icon_class": "fab fa-rocketchat",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 331,
+        "fields": {
+            "brand_name": "rockrms",
+            "brand_icon_class": "fab fa-rockrms",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 332,
+        "fields": {
+            "brand_name": "rust",
+            "brand_icon_class": "fab fa-rust",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 333,
+        "fields": {
+            "brand_name": "safari",
+            "brand_icon_class": "fab fa-safari",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 334,
+        "fields": {
+            "brand_name": "salesforce",
+            "brand_icon_class": "fab fa-salesforce",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 335,
+        "fields": {
+            "brand_name": "sass",
+            "brand_icon_class": "fab fa-sass",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 336,
+        "fields": {
+            "brand_name": "schlix",
+            "brand_icon_class": "fab fa-schlix",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 337,
+        "fields": {
+            "brand_name": "scribd",
+            "brand_icon_class": "fab fa-scribd",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 338,
+        "fields": {
+            "brand_name": "searchengin",
+            "brand_icon_class": "fab fa-searchengin",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 339,
+        "fields": {
+            "brand_name": "sellcast",
+            "brand_icon_class": "fab fa-sellcast",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 340,
+        "fields": {
+            "brand_name": "sellsy",
+            "brand_icon_class": "fab fa-sellsy",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 341,
+        "fields": {
+            "brand_name": "servicestack",
+            "brand_icon_class": "fab fa-servicestack",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 342,
+        "fields": {
+            "brand_name": "shirtsinbulk",
+            "brand_icon_class": "fab fa-shirtsinbulk",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 343,
+        "fields": {
+            "brand_name": "shopify",
+            "brand_icon_class": "fab fa-shopify",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 344,
+        "fields": {
+            "brand_name": "shopware",
+            "brand_icon_class": "fab fa-shopware",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 345,
+        "fields": {
+            "brand_name": "simplybuilt",
+            "brand_icon_class": "fab fa-simplybuilt",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 346,
+        "fields": {
+            "brand_name": "sistrix",
+            "brand_icon_class": "fab fa-sistrix",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 347,
+        "fields": {
+            "brand_name": "sith",
+            "brand_icon_class": "fab fa-sith",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 348,
+        "fields": {
+            "brand_name": "sketch",
+            "brand_icon_class": "fab fa-sketch",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 349,
+        "fields": {
+            "brand_name": "skyatlas",
+            "brand_icon_class": "fab fa-skyatlas",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 350,
+        "fields": {
+            "brand_name": "skype",
+            "brand_icon_class": "fab fa-skype",
+            "brand_importance_order": 1,
+            "is_activated": true
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 351,
+        "fields": {
+            "brand_name": "slack",
+            "brand_icon_class": "fab fa-slack",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 352,
+        "fields": {
+            "brand_name": "slack-hash",
+            "brand_icon_class": "fab fa-slack-hash",
+            "brand_importance_order": 1,
+            "is_activated": true
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 353,
+        "fields": {
+            "brand_name": "slideshare",
+            "brand_icon_class": "fab fa-slideshare",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 354,
+        "fields": {
+            "brand_name": "snapchat",
+            "brand_icon_class": "fab fa-snapchat",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 355,
+        "fields": {
+            "brand_name": "snapchat-ghost",
+            "brand_icon_class": "fab fa-snapchat-ghost",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 356,
+        "fields": {
+            "brand_name": "snapchat-square",
+            "brand_icon_class": "fab fa-snapchat-square",
+            "brand_importance_order": 1,
+            "is_activated": true
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 357,
+        "fields": {
+            "brand_name": "soundcloud",
+            "brand_icon_class": "fab fa-soundcloud",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 358,
+        "fields": {
+            "brand_name": "sourcetree",
+            "brand_icon_class": "fab fa-sourcetree",
+            "brand_importance_order": 1,
+            "is_activated": true
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 359,
+        "fields": {
+            "brand_name": "speakap",
+            "brand_icon_class": "fab fa-speakap",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 360,
+        "fields": {
+            "brand_name": "speaker-deck",
+            "brand_icon_class": "fab fa-speaker-deck",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 361,
+        "fields": {
+            "brand_name": "spotify",
+            "brand_icon_class": "fab fa-spotify",
+            "brand_importance_order": 1,
+            "is_activated": true
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 362,
+        "fields": {
+            "brand_name": "squarespace",
+            "brand_icon_class": "fab fa-squarespace",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 363,
+        "fields": {
+            "brand_name": "stack-exchange",
+            "brand_icon_class": "fab fa-stack-exchange",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 364,
+        "fields": {
+            "brand_name": "stack-overflow",
+            "brand_icon_class": "fab fa-stack-overflow",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 365,
+        "fields": {
+            "brand_name": "stackpath",
+            "brand_icon_class": "fab fa-stackpath",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 366,
+        "fields": {
+            "brand_name": "staylinked",
+            "brand_icon_class": "fab fa-staylinked",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 367,
+        "fields": {
+            "brand_name": "steam",
+            "brand_icon_class": "fab fa-steam",
+            "brand_importance_order": 1,
+            "is_activated": true
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 368,
+        "fields": {
+            "brand_name": "steam-square",
+            "brand_icon_class": "fab fa-steam-square",
+            "brand_importance_order": 1,
+            "is_activated": true
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 369,
+        "fields": {
+            "brand_name": "steam-symbol",
+            "brand_icon_class": "fab fa-steam-symbol",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 370,
+        "fields": {
+            "brand_name": "sticker-mule",
+            "brand_icon_class": "fab fa-sticker-mule",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 371,
+        "fields": {
+            "brand_name": "strava",
+            "brand_icon_class": "fab fa-strava",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 372,
+        "fields": {
+            "brand_name": "stripe",
+            "brand_icon_class": "fab fa-stripe",
+            "brand_importance_order": 1,
+            "is_activated": true
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 373,
+        "fields": {
+            "brand_name": "stripe-s",
+            "brand_icon_class": "fab fa-stripe-s",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 374,
+        "fields": {
+            "brand_name": "studiovinari",
+            "brand_icon_class": "fab fa-studiovinari",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 375,
+        "fields": {
+            "brand_name": "stumbleupon",
+            "brand_icon_class": "fab fa-stumbleupon",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 376,
+        "fields": {
+            "brand_name": "stumbleupon-circle",
+            "brand_icon_class": "fab fa-stumbleupon-circle",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 377,
+        "fields": {
+            "brand_name": "superpowers",
+            "brand_icon_class": "fab fa-superpowers",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 378,
+        "fields": {
+            "brand_name": "supple",
+            "brand_icon_class": "fab fa-supple",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 379,
+        "fields": {
+            "brand_name": "suse",
+            "brand_icon_class": "fab fa-suse",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 380,
+        "fields": {
+            "brand_name": "swift",
+            "brand_icon_class": "fab fa-swift",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 381,
+        "fields": {
+            "brand_name": "symfony",
+            "brand_icon_class": "fab fa-symfony",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 382,
+        "fields": {
+            "brand_name": "teamspeak",
+            "brand_icon_class": "fab fa-teamspeak",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 383,
+        "fields": {
+            "brand_name": "telegram",
+            "brand_icon_class": "fab fa-telegram",
+            "brand_importance_order": 1,
+            "is_activated": true
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 384,
+        "fields": {
+            "brand_name": "telegram-plane",
+            "brand_icon_class": "fab fa-telegram-plane",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 385,
+        "fields": {
+            "brand_name": "tencent-weibo",
+            "brand_icon_class": "fab fa-tencent-weibo",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 386,
+        "fields": {
+            "brand_name": "the-red-yeti",
+            "brand_icon_class": "fab fa-the-red-yeti",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 387,
+        "fields": {
+            "brand_name": "themeco",
+            "brand_icon_class": "fab fa-themeco",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 388,
+        "fields": {
+            "brand_name": "themeisle",
+            "brand_icon_class": "fab fa-themeisle",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 389,
+        "fields": {
+            "brand_name": "think-peaks",
+            "brand_icon_class": "fab fa-think-peaks",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 390,
+        "fields": {
+            "brand_name": "tiktok",
+            "brand_icon_class": "fab fa-tiktok",
+            "brand_importance_order": 1,
+            "is_activated": true
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 391,
+        "fields": {
+            "brand_name": "trade-federation",
+            "brand_icon_class": "fab fa-trade-federation",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 392,
+        "fields": {
+            "brand_name": "trello",
+            "brand_icon_class": "fab fa-trello",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 393,
+        "fields": {
+            "brand_name": "tumblr",
+            "brand_icon_class": "fab fa-tumblr",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 394,
+        "fields": {
+            "brand_name": "tumblr-square",
+            "brand_icon_class": "fab fa-tumblr-square",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 395,
+        "fields": {
+            "brand_name": "twitch",
+            "brand_icon_class": "fab fa-twitch",
+            "brand_importance_order": 1,
+            "is_activated": true
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 396,
+        "fields": {
+            "brand_name": "twitter",
+            "brand_icon_class": "fab fa-twitter",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 397,
+        "fields": {
+            "brand_name": "twitter-square",
+            "brand_icon_class": "fab fa-twitter-square",
+            "brand_importance_order": 1,
+            "is_activated": true
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 398,
+        "fields": {
+            "brand_name": "typo3",
+            "brand_icon_class": "fab fa-typo3",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 399,
+        "fields": {
+            "brand_name": "uber",
+            "brand_icon_class": "fab fa-uber",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 400,
+        "fields": {
+            "brand_name": "ubuntu",
+            "brand_icon_class": "fab fa-ubuntu",
+            "brand_importance_order": 1,
+            "is_activated": true
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 401,
+        "fields": {
+            "brand_name": "uikit",
+            "brand_icon_class": "fab fa-uikit",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 402,
+        "fields": {
+            "brand_name": "umbraco",
+            "brand_icon_class": "fab fa-umbraco",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 403,
+        "fields": {
+            "brand_name": "uncharted",
+            "brand_icon_class": "fab fa-uncharted",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 404,
+        "fields": {
+            "brand_name": "uniregistry",
+            "brand_icon_class": "fab fa-uniregistry",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 405,
+        "fields": {
+            "brand_name": "unity",
+            "brand_icon_class": "fab fa-unity",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 406,
+        "fields": {
+            "brand_name": "unsplash",
+            "brand_icon_class": "fab fa-unsplash",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 407,
+        "fields": {
+            "brand_name": "untappd",
+            "brand_icon_class": "fab fa-untappd",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 408,
+        "fields": {
+            "brand_name": "ups",
+            "brand_icon_class": "fab fa-ups",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 409,
+        "fields": {
+            "brand_name": "usb",
+            "brand_icon_class": "fab fa-usb",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 410,
+        "fields": {
+            "brand_name": "usps",
+            "brand_icon_class": "fab fa-usps",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 411,
+        "fields": {
+            "brand_name": "ussunnah",
+            "brand_icon_class": "fab fa-ussunnah",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 412,
+        "fields": {
+            "brand_name": "vaadin",
+            "brand_icon_class": "fab fa-vaadin",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 413,
+        "fields": {
+            "brand_name": "viacoin",
+            "brand_icon_class": "fab fa-viacoin",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 414,
+        "fields": {
+            "brand_name": "viadeo",
+            "brand_icon_class": "fab fa-viadeo",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 415,
+        "fields": {
+            "brand_name": "viadeo-square",
+            "brand_icon_class": "fab fa-viadeo-square",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 416,
+        "fields": {
+            "brand_name": "viber",
+            "brand_icon_class": "fab fa-viber",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 417,
+        "fields": {
+            "brand_name": "vimeo",
+            "brand_icon_class": "fab fa-vimeo",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 418,
+        "fields": {
+            "brand_name": "vimeo-square",
+            "brand_icon_class": "fab fa-vimeo-square",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 419,
+        "fields": {
+            "brand_name": "vimeo-v",
+            "brand_icon_class": "fab fa-vimeo-v",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 420,
+        "fields": {
+            "brand_name": "vine",
+            "brand_icon_class": "fab fa-vine",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 421,
+        "fields": {
+            "brand_name": "vk",
+            "brand_icon_class": "fab fa-vk",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 422,
+        "fields": {
+            "brand_name": "vnv",
+            "brand_icon_class": "fab fa-vnv",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 423,
+        "fields": {
+            "brand_name": "vuejs",
+            "brand_icon_class": "fab fa-vuejs",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 424,
+        "fields": {
+            "brand_name": "watchman-monitoring",
+            "brand_icon_class": "fab fa-watchman-monitoring",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 425,
+        "fields": {
+            "brand_name": "waze",
+            "brand_icon_class": "fab fa-waze",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 426,
+        "fields": {
+            "brand_name": "weebly",
+            "brand_icon_class": "fab fa-weebly",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 427,
+        "fields": {
+            "brand_name": "weibo",
+            "brand_icon_class": "fab fa-weibo",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 428,
+        "fields": {
+            "brand_name": "weixin",
+            "brand_icon_class": "fab fa-weixin",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 429,
+        "fields": {
+            "brand_name": "whatsapp",
+            "brand_icon_class": "fab fa-whatsapp",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 430,
+        "fields": {
+            "brand_name": "whatsapp-square",
+            "brand_icon_class": "fab fa-whatsapp-square",
+            "brand_importance_order": 1,
+            "is_activated": true
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 431,
+        "fields": {
+            "brand_name": "whmcs",
+            "brand_icon_class": "fab fa-whmcs",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 432,
+        "fields": {
+            "brand_name": "wikipedia-w",
+            "brand_icon_class": "fab fa-wikipedia-w",
+            "brand_importance_order": 1,
+            "is_activated": true
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 433,
+        "fields": {
+            "brand_name": "windows",
+            "brand_icon_class": "fab fa-windows",
+            "brand_importance_order": 1,
+            "is_activated": true
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 434,
+        "fields": {
+            "brand_name": "wix",
+            "brand_icon_class": "fab fa-wix",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 435,
+        "fields": {
+            "brand_name": "wizards-of-the-coast",
+            "brand_icon_class": "fab fa-wizards-of-the-coast",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 436,
+        "fields": {
+            "brand_name": "wodu",
+            "brand_icon_class": "fab fa-wodu",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 437,
+        "fields": {
+            "brand_name": "wolf-pack-battalion",
+            "brand_icon_class": "fab fa-wolf-pack-battalion",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 438,
+        "fields": {
+            "brand_name": "wordpress",
+            "brand_icon_class": "fab fa-wordpress",
+            "brand_importance_order": 1,
+            "is_activated": true
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 439,
+        "fields": {
+            "brand_name": "wordpress-simple",
+            "brand_icon_class": "fab fa-wordpress-simple",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 440,
+        "fields": {
+            "brand_name": "wpbeginner",
+            "brand_icon_class": "fab fa-wpbeginner",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 441,
+        "fields": {
+            "brand_name": "wpexplorer",
+            "brand_icon_class": "fab fa-wpexplorer",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 442,
+        "fields": {
+            "brand_name": "wpforms",
+            "brand_icon_class": "fab fa-wpforms",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 443,
+        "fields": {
+            "brand_name": "wpressr",
+            "brand_icon_class": "fab fa-wpressr",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 444,
+        "fields": {
+            "brand_name": "xbox",
+            "brand_icon_class": "fab fa-xbox",
+            "brand_importance_order": 1,
+            "is_activated": true
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 445,
+        "fields": {
+            "brand_name": "xing",
+            "brand_icon_class": "fab fa-xing",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 446,
+        "fields": {
+            "brand_name": "xing-square",
+            "brand_icon_class": "fab fa-xing-square",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 447,
+        "fields": {
+            "brand_name": "y-combinator",
+            "brand_icon_class": "fab fa-y-combinator",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 448,
+        "fields": {
+            "brand_name": "yahoo",
+            "brand_icon_class": "fab fa-yahoo",
+            "brand_importance_order": 1,
+            "is_activated": true
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 449,
+        "fields": {
+            "brand_name": "yammer",
+            "brand_icon_class": "fab fa-yammer",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 450,
+        "fields": {
+            "brand_name": "yandex",
+            "brand_icon_class": "fab fa-yandex",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 451,
+        "fields": {
+            "brand_name": "yandex-international",
+            "brand_icon_class": "fab fa-yandex-international",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 452,
+        "fields": {
+            "brand_name": "yarn",
+            "brand_icon_class": "fab fa-yarn",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 453,
+        "fields": {
+            "brand_name": "yelp",
+            "brand_icon_class": "fab fa-yelp",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 454,
+        "fields": {
+            "brand_name": "yoast",
+            "brand_icon_class": "fab fa-yoast",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 455,
+        "fields": {
+            "brand_name": "youtube",
+            "brand_icon_class": "fab fa-youtube",
+            "brand_importance_order": 1,
+            "is_activated": true
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 456,
+        "fields": {
+            "brand_name": "youtube-square",
+            "brand_icon_class": "fab fa-youtube-square",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    },
+    {
+        "model": "pypass.brandicon",
+        "pk": 457,
+        "fields": {
+            "brand_name": "zhihu",
+            "brand_icon_class": "fab fa-zhihu",
+            "brand_importance_order": 3,
+            "is_activated": false
+        }
+    }
+]
